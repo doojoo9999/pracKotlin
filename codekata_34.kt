@@ -1,2 +1,0 @@
-class codekata_34 {
-}
