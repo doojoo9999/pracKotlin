@@ -1,0 +1,9 @@
+Java의 자료형은 기본자료형 (Primitive type)과 참조 자료형(Reference type)으로 구분된다.
+
+기본자료형의 종류
+short, int, long, float, double, char, boolean, byte 등으로 kotlin과 동일하다.
+
+참조자료형의 종류
+array, list, string, interface 등
+
+kotlin과 큰 차이가 없어 보임
