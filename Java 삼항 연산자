@@ -1,0 +1,19 @@
+Java 삼항 연산자
+
+변수명 = 논리 조건 ? true 일 때 실행되는 기능 : false일 때 실행되는 기능의 구조로 사용된다.
+
+예시
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int score = sc.nextInt();
+
+        // result의 값은 조건에 따라 좌항 혹은 우항으로 결정된다.
+        String result = ( score < 10 ) ? "10보다 작습니다." : "10보다 큽니다.";
+        System.out.println(result);
+    }
+}
+
+간단하게 조건문을 사용할 수 있다는 장점이 있다.

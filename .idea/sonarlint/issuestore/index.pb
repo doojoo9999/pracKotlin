@@ -14,3 +14,7 @@ CSStudy.kt,7\8\78039d20c0762d7e5affaba3fede3cffac8b4d52
 	java.java,4\e\4e7d1c1663e17a5c52e18b27ffce49d4dc2795e3
 >
 Java 자료형,9\7\9768f06722640cc96b09ba542f51ef7b53895ed2
+>
+Java 조건문,f\c\fc209a4a70b96978926b7a5946a9028cff856a57
+E
+Java 삼항 연산자,8\3\8352acfb361e5a3502b7447f7c730de5a0ceaa3f

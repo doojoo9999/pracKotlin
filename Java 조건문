@@ -1,9 +1,33 @@
-Java의 자료형은 기본자료형 (Primitive type)과 참조 자료형(Reference type)으로 구분된다.
+Java의 조건문
 
-기본자료형의 종류
-short, int, long, float, double, char, boolean, byte 등으로 kotlin과 동일하다.
+if, else if, else 구조는 익숙하지만 Java에는 switch 구조가 있다.
 
-참조자료형의 종류
-array, list, string, interface 등
+switch 의 소갈화에는 파라미터를 넣어주며
+default 는 if문의 else와 비슷한 기능을 한다.
 
-kotlin과 큰 차이가 없어 보임
+케이스마다 break가 없다면 조건을 충족한 케이스 이후에는 판별하지 않고 모두 실행된다.
+
+예시
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String score = sc.next();
+
+        switch(score){
+            case "A":
+                System.out.println("A등급입니다.");
+                break;
+            case "B":
+                System.out.println("B등급입니다.");
+                break;
+            case "C":
+                System.out.println("C등급입니다.");
+                break;
+            default:
+                System.out.println("D등급 이하 입니다.");
+                break;
+        }
+    }
+}
