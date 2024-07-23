@@ -28,3 +28,5 @@ T
 $Java 오버로딩과 오버라이딩,7\1\71c2a22a949e988940a4dd8eb9844a50ea988f0f
 D
 Java 접근제어자,f\1\f1a3d27e43c9791dd8019d5858452b2ca643e695
+X
+(Java 추상 클래스와 인터페이스,f\3\f357b8deb51d842a0d247d60ebefcea9922df38a
